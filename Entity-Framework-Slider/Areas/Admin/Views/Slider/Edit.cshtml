@@ -1,0 +1,15 @@
+﻿@model Slider
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container my-5">
+    <div class="slider-content my-5">
+        <img style="width:400px; height:200px;" src="~/img/@Model.Image" />
+    </div>
+    <div class="buttons my-3">
+        <button type="submit" class="btn btn-primary mr-2">Submit</button>
+        <a class="btn btn-light" asp-action="Index">Cancel</a>
+    </div>  
+</div>
+
